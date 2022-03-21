@@ -1,0 +1,37 @@
+.container{
+    
+    font-family: Arial, Helvetica;
+    max-width: 50%;
+    margin:auto;
+  
+}
+
+#bar{ 
+   padding: 1%;
+    background: rgb(238, 238, 238);  
+}
+
+table{
+   width: 100%;
+    
+}
+.newTask{
+    min-width: 60%;
+    height: 35px;
+   
+}
+input{
+    margin: 0 35px;
+    width: 60%;
+   padding: 1%;
+}
+button{
+   padding: 10px;
+    color: white;
+    background-color: rgb(60, 141, 91);
+    border: none;
+}
+
+h1{
+    text-align: center;
+}
