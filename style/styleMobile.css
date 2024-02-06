@@ -1,0 +1,46 @@
+@media screen and (max-width:768px) {
+    .burguer{
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      height: 3rem;
+      background-color: var(--cor-cinza);
+    }
+  
+    .menu{
+      background: rgba(36, 36, 36, 0.562);
+  
+    flex-direction: column;
+    height: auto;
+   }
+   
+    .itens-menu{
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      display: none;
+      padding-left: 2rem;
+      gap: 0.3rem;
+    }
+    li a {
+      color:rgb(26, 25, 25);
+    }
+    .bunner{
+      flex-direction: column-reverse;
+    }
+    .contatos{
+      padding-bottom: 1rem;
+    }
+  
+    .div-cards{
+      flex-direction: column;
+    }
+   
+    .cards{
+      flex-direction: column;
+    }
+    
+  }

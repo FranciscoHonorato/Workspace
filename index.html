@@ -1,0 +1,86 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleWeb.css">
+    <link rel="stylesheet" href="style/styleMobile.css">
+    <link rel="stylesheet" href="icons/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="burguer">
+            <i class="fa-solid fa-bars" onclick="clickMenu()"> </i>
+        </div>
+        <ul class="itens-menu" id="itens-menu">
+            <li class="item"> <a href="#bunner" > <label> Inicio </label> </a> </li>
+            <li class="item"> <a href="#sobre" > <label> Sobre </label> </a> </li>
+            <li class="item"> <a href="#projetos" > <label> Projetos </label> </a> </li>
+            <li class="item"> <a href="#contatos" > <label> Contatos </label> </a> </li>
+        </ul>
+    </nav>
+    <header>
+        <div id="bunner" class="bunner">
+            <div class="texto">
+                <h3> Olá! eu sou </h3>
+                <h1> Francisco de Assis Honorato</h1>
+                <h3>Bem vindo ao meu portifolio </h3>
+                <section id="contatos" class="contatos">
+                    <i class="fa-brands fa-linkedin"> </i>
+                    <i class="fa-brands fa-github"> </i>
+                    <i class="fa-brands fa-instagram"> </i>
+                    <i class="fa-brands fa-whatsapp"> </i>
+                </section>
+            </div>
+            <div class="imagem">
+                <img src="img/imagem1.jpg" alt="perfil">
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="sobre" class="sobre">
+            <h1>Sobre</h1>
+            <p>
+                meu nome é Francisco de Assis Honorato apaixonado por tecnologia, possuo habilidades tecnicas
+                em desenvolvimento em java, web e banco de dados, formado em ciência da computação na univercidade
+                Univeritas Rio de Janeiro.
+            </p>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h1> Projetos </h1>
+            <div class="div-cards">
+                <div class="cards">
+                    <img src="img/jogo1.jpg" alt="jogo da velha">
+                    <div class="texto">
+                        <h2>jogo da velha</h2>
+                        <p>jogo feito da velha desenvolvido em html, css e javascript</p>
+                        <i class="fa-brands fa-html5 html"></i>
+                        <i class="fa-brands fa-css3-alt css"></i>
+                        <i class="fa-brands fa-js js"></i>
+                    </div>
+                </div>
+                <div class="cards reverse">
+                    <img src="img/jogo2.jpg" alt="jogo snake">
+                    <div class="texto">
+                        <h2>jogo snake game</h2>
+                        <p>jogo snake game desenvolvido em html, css e javascript</p>
+                        <i class="fa-brands fa-html5 html"></i>
+                        <i class="fa-brands fa-css3-alt css"></i>
+                        <i class="fa-brands fa-js js"></i>
+                    </div>
+                </div>
+                <div class="cards"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por <a href="#">Francisco de Assis</a> </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
